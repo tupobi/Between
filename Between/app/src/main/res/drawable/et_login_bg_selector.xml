@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--按钮，输入框圆角：23dp-->
+    <corners
+        android:topLeftRadius="23dp"
+        android:topRightRadius="23dp"
+        android:bottomLeftRadius="23dp"
+        android:bottomRightRadius="23dp"/>
+
+    <!--内容距离-->
+    <padding
+        android:left="25dp"
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp"/>
+
+    <!--输入框背景高度-->
+    <size
+        android:height="50dp"/>
+
+    <!--输入框背景颜色-->
+    <solid
+        android:color="@android:color/transparent"/>
+
+    <!--输入框边框宽度和颜色-->
+    <stroke
+        android:width="0.25dp"
+        android:color="@android:color/black"/>
+
+</shape>
